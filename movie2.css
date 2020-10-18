@@ -1,0 +1,58 @@
+header{
+    border: solid 1px lightgray;
+    font-weight: bold;
+    font-size: 15px;
+    background: url("images/background.jpg");
+
+}
+
+nav#head_menu ul li{
+
+    display: inline;  
+    padding: 0 0.5em 0 0;
+}
+
+#name{
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: lime;
+}
+
+#search{
+    margin-left: 5em;
+}
+
+li.head a:hover{
+    background-color: black;
+}
+
+li.comp a:hover{
+    background-color: black;
+}
+
+#head_menu ul li.head::before{
+    content: "|";
+    padding-right: .4em;
+
+}
+
+
+
+table, th, td{
+    border: 0 solid;
+    text-align: left;
+    
+}  
+    
+th{
+    color: gray;
+    
+}
+
+p{
+    color: rgb(31, 15, 241);
+    margin: 10px;
+    font-size: 15px;
+    
+}

@@ -1,0 +1,183 @@
+header{
+    border: solid 1px lightgray;
+    font-size: 15px;
+    background: url("images/background.jpg");
+    font-weight: bold;
+}
+
+header a:link{
+    color: white;
+}
+
+nav#head_menu ul li{
+
+    display: inline-block;  
+    padding: 0 0.5em 0 0; 
+}
+
+li.head a:hover{
+    background-color: rgb(102, 92, 247);
+}
+
+li.comp a:hover{
+    background-color: rgb(102, 92, 247);
+}
+
+#head_menu ul li.head::before{
+    content: "|";
+    padding-right: .4em;
+}
+
+#name{
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color:lime;
+}
+
+#search{
+    margin-left: 5em;
+}
+
+#form {
+    background-color: #f2f2f2;
+    border-style: inset;
+    border-radius: 1rem;
+    text-align: center;
+    width: 22%;
+    border-color: green;
+    margin: 5% 38%;
+    padding: 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn{
+      
+    width: 100%;
+    background-color: #277aaa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: crimson;
+   
+}
+
+#tab{
+    margin-left: 2em;
+    
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited{
+    color:blue;
+}
+
+.btn a:link{
+    color: white;
+}
+
+.btn a:visited{
+    color: white;
+}
+
+
+.sign_up{
+    font-size: 14px;
+    margin-left: 2em;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+h4{
+    margin-top: -5px;
+    font-size: 12px;
+}
+
+h6{
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.facebook{
+    margin-left: 10px;
+}
+
+
+
+div#form p{
+    font-size: .8em;
+}
+
+footer{
+    background-color: #a8a5a2;
+    height: 40px;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    padding: 1.5em 2.0em;
+   
+}
+
+footer ul#bottom{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+#bottom li{
+    display: inline-block;
+    padding: 0 0.4em 0 0;
+}
+
+footer ul li.btm::before{
+    content: "|";
+    padding-right: .2em;
+}
+
+footer ul#bottom a:hover{
+    color: greenyellow;
+}
+
+footer a:link{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: white;
+    text-decoration: none;
+    
+}
+
+header a:link{
+    color: white;
+    text-decoration: none;
+}
+
+header a:visited{
+    color: white;
+    text-decoration: none;
+}
